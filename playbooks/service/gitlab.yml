@@ -13,3 +13,6 @@
     - role: debops.gitlab
       tags: [ 'role::gitlab' ]
 
+    - role: debops.nodejs
+      tags: [ 'role::nodejs' ]
+      nodejs__upstream: True
